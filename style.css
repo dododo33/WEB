@@ -3,32 +3,39 @@ body {
 }
 
 a {
-  color: black;
+  color: darkorchid;
   text-decoration: none;
 }
 
 h1 {
+ 
   font-size: 45px;
   text-align: center;
-  border-bottom: 1px solid gray;
+  border-bottom: 15px solid gray;
   margin: 0;
   padding: 20px;
+
 }
 
 #grid ol {
-  border-right: 1px solid gray;
+  font-size: 20px;
+  border-right: 15px solid gray;
   width: 100px;
   margin: 0;
-  padding: 20px;
+  padding: 30px;
 }
+
 
 #grid {
   display: grid;
   grid-template-columns: 150px 1fr;
 }
 
+
 #article {
-  padding-left: 25px;
+  padding-left: 40px;
+  color : black;;
+ 
 }
 
 @media(max-width :800px) {
@@ -39,7 +46,11 @@ h1 {
       border-right: none;
   }
   h1 {
+    
       border-bottom: none;
+  
   }
 
+  
+  
 }
